@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.usericonpicker.MainActivity" >
+
+    <item
+        android:id="@+id/action_capture"
+        android:orderInCategory="100"
+        android:title="拍照"
+        app:showAsAction="never"/>
+     <item
+        android:id="@+id/action_select"
+        android:orderInCategory="100"
+        android:title="选取"
+        app:showAsAction="never"/>
+
+</menu>
